@@ -20,6 +20,7 @@ body {
   margin: auto;
   border: 3px solid black;
   background-color: #eee;
+  height:200px;
 }
 
 .box {
@@ -29,6 +30,7 @@ body {
 
 .red {
   background-color: pink;
+  position:
 }
 
 .green {
@@ -45,4 +47,42 @@ body {
 
 .yellow {
   background-color: yellow;
+}
+.container {
+    position: relative;
+}
+
+.box.blue {
+    position: absolute;
+    top: 50px;
+    left: 200px;
+    z-index: 10;
+  }
+
+.box.red {
+    position: absolute;
+    top: 50px;
+    right: 100px;
+
+}
+
+.box.green {
+    position: absolute;
+    bottom: 50px;
+    right: 50%;
+}
+
+.box.orange {
+    position: absolute;
+    top: 75%;
+    left: 25%;
+}
+
+.box.yellow {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    margin: 0;
+
 }
