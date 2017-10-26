@@ -27,3 +27,65 @@ figure {
   width: 50%;
   margin: 40px auto;
 }
+article.film {overflow: hidden;border: 1px solid grey;position: relative;padding-right: 27px;}
+
+figure.film-poster {
+    float: left;
+    width: 34%;
+    top: 22px;
+    position: relative;
+    /* top: 27px; */
+    /* bottom: 10px; */
+    left: 9px;
+    height: auto;
+}
+
+.film-details {
+    float: right;
+    width: 60%;
+    margin-left: 9px;
+}
+
+.action-watch-later {
+    /* position: absolute; */
+    /* top: -277px; */
+    /* right: -144px; */
+    color: red;
+}
+
+.fa-lg {
+    /* position: relative; */
+    left: 234px;
+    color: red;
+}
+
+.action-like {
+    position: absolute;
+    bottom: 8px;
+    right: 8px;
+}
+p.film-description {
+    padding-bottom: 20px;
+}
+
+.action-watch-later {
+    position: absolute;
+    top: 8px;
+    right: 8px;
+}
+
+article.film {
+    /* height: 1000px; */
+}
+
+article.film {
+    clear: both;
+}
+
+figure.film-poster {
+    overflow: hidden;
+}
+
+figure.film-poster {
+    padding-bottom: 33px;
+}
